@@ -1,0 +1,55 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "title": "Timeless",
+        "artist": "The Weekend, Playboi Carti",
+        "albumArt": "/Songs/timeless.jfif",
+        "file": "Songs/The Weeknd, Playboi Carti - Timeless.mp3",
+        "playlist": "Newly Released"
+      },
+      {
+        "id": 1,
+        "title": "Big Dawgs",
+        "artist": "Hanumankind Ft Kalmi",
+        "albumArt": "/Songs/big.jfif",
+        "file": "Songs/Hanumankind – Big Dawgs _ Ft. Kalmi.mp3",
+        "playlist": "Newly Released"
+      },
+      {
+        "id": 1,
+        "title": "Make You Mine",
+        "artist": "Madison Beer",
+        "albumArt": "/Songs/mine.jpg",
+        "file": "Songs/Madison Beer - Make You Mine.mp3",
+        "playlist": "Newly Released"
+      },
+      {
+        "id": 1,
+        "title": "Your Apartment",
+        "artist": "Wallows",
+        "albumArt": "/Songs/apartment.jpg",
+        "file": "Songs/Wallows – Your Apartment.mp3",
+        "playlist": "Newly Released"
+      }, {
+        "id": 1,
+        "title": "Heavy Is the Crown",
+        "artist": "Linkin Park",
+        "albumArt": "/Songs/linkin.jfif",
+        "file": "Songs/Heavy Is the Crown  - Linkin Park.mp3",
+        "playlist": "Newly Released"
+      }
+      , {
+        "id": 1,
+        "title": "The Emptiness Machine",
+        "artist": "Linkin Park",
+        "albumArt": "/Songs/linkin.jfif",
+        "file": "Songs/The Emptiness Machine  - Linkin Park.mp3",
+        "playlist": "Newly Released"
+      }
+      
+      
+  
+    ]
+  }
+  

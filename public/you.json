@@ -1,0 +1,52 @@
+{
+    "songs": [
+        {
+            "id": 2,
+            "title": "K.",
+            "artist": "Cigarettes After Sex",
+            "albumArt": "/Songs/k.png",
+            "file": "/Songs/cigarettes after sex - k..mp3",
+            "playlist": "Rap Mix"
+          },
+      {
+        "id": 1,
+        "title": "Separate Ways (Worlds Apart)",
+        "artist": "Journey",
+        "albumArt": "/Songs/journey.jfif",
+        "file": "Songs/Journey - Separate Ways (Worlds Apart).mp3",
+        "playlist": "Rap Mix"
+      },
+       
+      
+      {
+        "id": 2,
+        "title": "Call Out My Name",
+        "artist": "The Weeknd",
+        "albumArt": "/Songs/call.jfif",
+        "file": "/Songs/The Weeknd - Call Out My Name.mp3",
+        "playlist": "Rap Mix"
+      }
+      ,
+      {
+        "id": 2,
+        "title": "TUMI",
+        "artist": "LEVEL FIVE",
+        "albumArt": "/Songs/tumi.jpg",
+        "file": "/Songs/LEVEL FIVE - TUMI (.mp3",
+        "playlist": "Rap Mix"
+      }
+      ,
+      {
+        "id": 2,
+        "title": "Kaisay Jiyein",
+        "artist": "Mustafa Zahid",
+        "albumArt": "/Songs/kasey.jpg",
+        "file": "/Songs/Mustafa Zahid - Kaisay Jiyein.mp3",
+        "playlist": "Rap Mix"
+      }
+      
+      
+  
+    ]
+  }
+  

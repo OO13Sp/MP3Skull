@@ -1,0 +1,50 @@
+{
+  "songs": [
+    
+    {
+      "id": 1,
+      "title": "Starboy",
+      "artist": "The Weekend Ft Draft Punk",
+      "albumArt": "/Songs/starboy.jpg",
+      "file": "/Songs/The Weeknd - Starboy ft. Daft Punk.mp3",
+      "playlist": "Rap Mix"
+    },
+    {
+      "id": 2,
+      "title": "FE!N",
+      "artist": "Travis Scott ft Playboi Carti",
+      "albumArt": "/Songs/Meltdown.jpg",
+      "file": "/Songs/Travis Scott - FE!N ft. Playboi Carti.mp3",
+      "playlist": "Rap Mix"
+    }
+    ,
+    {
+      "id": 3,
+      "title": "Like That",
+      "artist": "Future, Metro Booming, Kendrick Lamar",
+      "albumArt": "/Songs/likethat.jpg",
+      "file": "/Songs/Future, Metro Boomin, Kendrick Lamar - Like That.mp3",
+      "playlist": "Rap Mix"
+    }
+    ,
+    {
+      "id": 1,
+      "title": "Meltdown",
+      "artist": "Travis Scott ft Drake",
+      "albumArt": "/Songs/Meltdown.jpg",
+      "file": "/Songs/Travis Scott - MELTDOWN ft. Drake.mp3",
+      "playlist": "Rap Mix"
+    }
+    ,
+    {
+      "id": 1,
+      "title": "Alot",
+      "artist": "21 Savage ft J.Cole",
+      "albumArt": "/Songs/alot.jpg",
+      "file": "/Songs/21 Savage - a lot ft. J. Cole.mp3",
+      "playlist": "Rap Mix"
+    }
+  ]
+}
+
+ 

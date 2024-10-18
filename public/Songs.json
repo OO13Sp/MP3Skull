@@ -1,0 +1,50 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Don't You Worry Child",
+      "artist": "Swedish House Mafia ft. John Martin",
+      "albumArt": "/Songs/Dont you worry child.jfif",
+      "file": "Songs/Swedish House Mafia ft. John Martin - Don't You Worry Child.mp3",
+      "playlist": "Rap Mix"
+    },
+    {
+      "id": 2,
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "albumArt": "/Songs/Wake me Up.jpg",
+      "file": "/Songs/Avicii - Wake Me Up.mp3",
+      "playlist": "Rap Mix"
+    }
+    ,
+    {
+      "id": 2,
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "albumArt": "/Songs/Wake me Up.jpg",
+      "file": "/Songs/Avicii - Wake Me Up.mp3",
+      "playlist": "Rap Mix"
+    }
+    ,
+    {
+      "id": 2,
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "albumArt": "/Songs/Wake me Up.jpg",
+      "file": "/Songs/Avicii - Wake Me Up.mp3",
+      "playlist": "Rap Mix"
+    }
+    ,
+    {
+      "id": 2,
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "albumArt": "/Songs/Wake me Up.jpg",
+      "file": "/Songs/Avicii - Wake Me Up.mp3",
+      "playlist": "Rap Mix"
+    }
+    
+    
+
+  ]
+}

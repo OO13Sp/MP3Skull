@@ -1,0 +1,47 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "title": "Party Rock Anthem",
+        "artist": "LMFAO ft. Lauren Bennett, GoonRock",
+        "albumArt": "/Songs/party.jfif",
+        "file": "Songs/LMFAO ft. Lauren Bennett, GoonRock - Party Rock Anthem.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "Yeah 3X",
+        "artist": "Chris Brown",
+        "albumArt": "/Songs/yeah.jfif",
+        "file": "Songs/Chris Brown - Yeah 3x.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "Club Can't Handle Me",
+        "artist": "Flo Rida ft. David Guetta",
+        "albumArt": "/Songs/club.jpg",
+        "file": "Songs/Flo Rida - Club Can't Handle Me ft. David Guetta.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "On The Floor",
+        "artist": "Jennifer Lopez ft Pitbull ",
+        "albumArt": "/Songs/floor.png",
+        "file": "Songs/Jennifer Lopez - On The Floor ft. Pitbull.mp3",
+        "playlist": "Hindi Mix"
+      }, {
+        "id": 1,
+        "title": "Hotel Room Service",
+        "artist": "Pitbull",
+        "albumArt": "/Songs/hotel.jpg",
+        "file": "Songs/Pitbull - Hotel Room Service.mp3",
+        "playlist": "Hindi Mix"
+      }
+      
+      
+  
+    ]
+  }
+  

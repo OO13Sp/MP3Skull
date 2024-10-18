@@ -1,0 +1,47 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "title": "Expresso",
+        "artist": "Sabrina Carpenter",
+        "albumArt": "/Songs/sabrina.jfif",
+        "file": "Songs/Sabrina Carpenter - Espresso.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "I really want to stay at your house",
+        "artist": "ROSA WALTON & HALLIE COGGINS",
+        "albumArt": "/Songs/cyber.jpg",
+        "file": "Songs/ROSA WALTON & HALLIE COGGINS - I REALLY WANT TO STAY AT YOUR HOUSE - AMV CYBERPUNK EDGERUNNERS.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "Tore Up Guitar Remix",
+        "artist": "Don Toliver",
+        "albumArt": "/Songs/tore.jpg",
+        "file": "Songs/DON TOLIVER - TORE UP but VERSION WE ALL WANTED.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "Stay",
+        "artist": "The Kid Lario, Justin Bieber",
+        "albumArt": "/Songs/stay.jpg",
+        "file": "Songs/The Kid LAROI, Justin Bieber - STAY.mp3",
+        "playlist": "Hindi Mix"
+      }, {
+        "id": 1,
+        "title": "Routines In The Night",
+        "artist": "Twenty One Pilots",
+        "albumArt": "/Songs/pilots.jfif",
+        "file": "Songs/Twenty One Pilots - Routines In The Night.mp3",
+        "playlist": "Hindi Mix"
+      }
+      
+      
+  
+    ]
+  }
+  

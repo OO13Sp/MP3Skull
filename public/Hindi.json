@@ -1,0 +1,47 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "title": "Tera Chehra",
+        "artist": "Adnan Sami",
+        "albumArt": "/Songs/adnan.jpg",
+        "file": "Songs/Tera Chehra - Adnan Sami.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "Kaisey Jiyun",
+        "artist": "The Local Train",
+        "albumArt": "/Songs/local.jfif",
+        "file": "Songs/The Local Train - Aalas Ka Pedh - Kaisey Jiyun.mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "(AADAT UNPLUGGED)",
+        "artist": "Atif Aslam",
+        "albumArt": "/Songs/adat.jpg",
+        "file": "Songs/Atif aslam (AADAT UNPLUGGED).mp3",
+        "playlist": "Hindi Mix"
+      },
+      {
+        "id": 1,
+        "title": "Choo Lo",
+        "artist": "The Local Train",
+        "albumArt": "/Songs/local.jfif",
+        "file": "Songs/The Local Train - Aalas Ka Pedh - Choo Lo.mp3",
+        "playlist": "Hindi Mix"
+      }, {
+        "id": 1,
+        "title": "Woh Lamhe Woh Baatein",
+        "artist": "Atif Aslam",
+        "albumArt": "/Songs/woh.png",
+        "file": "Songs/Atif Aslam - Woh Lamhe Woh Baatein.mp3",
+        "playlist": "Hindi Mix"
+      }
+      
+      
+  
+    ]
+  }
+  

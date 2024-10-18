@@ -1,0 +1,43 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "title": "JO TUM MERE HO",
+            "artist": "Anuv Jain",
+            "albumArt": "/Songs/tum.webp",
+            "file": "/Songs/Anuv Jain - JO TUM MERE HO.mp3",
+            "playlist": "Rap Mix"
+          },
+      {
+        "id": 2,
+        "title": "HUSN",
+        "artist": "Anuv Jain",
+        "albumArt": "/Songs/husn.jfif",
+        "file": "Songs/Anuv Jain - HUSN.mp3",
+        "playlist": "Rap Mix"
+      },
+      {
+        "id": 3,
+        "title": "GUL",
+        "artist": "Anuv Jain",
+        "albumArt": "/Songs/gul.jpg",
+        "file": "/Songs/Anuv Jain - GUL.mp3",
+        "playlist": "Rap Mix"
+      }
+      ,
+      
+      
+      {
+        "id": 4,
+        "title": "BAARISHEIN",
+        "artist": "Anuv Jain",
+        "albumArt": "/Songs/rain.jfif",
+        "file": "/Songs/BAARISHEIN   Anuv Jain.mp3",
+        "playlist": "Rap Mix"
+      }
+    
+      
+  
+    ]
+  }
+  

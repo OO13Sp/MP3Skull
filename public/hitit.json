@@ -1,0 +1,52 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "title": "Give Me Everything",
+            "artist": "Pitbull ft. Ne-Yo, Afrojack, Nayer",
+            "albumArt": "/Songs/pitbull.jfif",
+            "file": "/Songs/Pitbull - Give Me Everything ft. Ne-Yo, Afrojack, Nayer.mp3",
+            "playlist": "Rap Mix"
+          },
+      {
+        "id": 2,
+        "title": "GANGNAM STYLE",
+        "artist": "PSY",
+        "albumArt": "/Songs/psy.jfif",
+        "file": "Songs/PSY - GANGNAM STYLE.mp3",
+        "playlist": "Rap Mix"
+      },
+      {
+        "id": 3,
+        "title": "Blurred Lines",
+        "artist": "Robin Thicke ft. T.I., Pharrell ",
+        "albumArt": "/Songs/blurred.jfif",
+        "file": "/Songs/Robin Thicke - Blurred Lines ft. T.I., Pharrell.mp3",
+        "playlist": "Rap Mix"
+      }
+      ,
+      
+      
+      {
+        "id": 4,
+        "title": "MILLIONAIRE",
+        "artist": "YOYOHoneySingh",
+        "albumArt": "/Songs/yoyo.jpg",
+        "file": "/Songs/MILLIONAIRE SONG - YOYOHoneySingh.mp3",
+        "playlist": "Rap Mix"
+      }
+      ,
+      {
+        "id": 5,
+        "title": "Breed",
+        "artist": "Nirvana",
+        "albumArt": "/Songs/nirvana.jpg",
+        "file": "/Songs/Nirvana - Breed.mp3",
+        "playlist": "Rap Mix"
+      }
+      
+      
+  
+    ]
+  }
+  

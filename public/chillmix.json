@@ -1,0 +1,52 @@
+{
+    "songs": [
+        {
+            "id": 1,
+            "title": "Loving You Is Harder",
+            "artist": "SEB",
+            "albumArt": "/Songs/seb.jpg",
+            "file": "/Songs/SEB - loving u is harder.mp3",
+            "playlist": "Rap Mix"
+          },
+      {
+        "id": 2,
+        "title": "Don't You Worry Child",
+        "artist": "Swedish House Mafia ft. John Martin",
+        "albumArt": "/Songs/Dont you worry child.jfif",
+        "file": "Songs/Swedish House Mafia ft. John Martin - Don't You Worry Child.mp3",
+        "playlist": "Rap Mix"
+      },
+      {
+        "id": 3,
+        "title": "Wake Me Up",
+        "artist": "Avicii",
+        "albumArt": "/Songs/Wake me Up.jpg",
+        "file": "/Songs/Avicii - Wake Me Up.mp3",
+        "playlist": "Rap Mix"
+      }
+      ,
+      
+      
+      {
+        "id": 4,
+        "title": "Something In The Way",
+        "artist": "Nirvana",
+        "albumArt": "/Songs/nirvana.jpg",
+        "file": "/Songs/Nirvana - Something In The Way.mp3",
+        "playlist": "Rap Mix"
+      }
+      ,
+      {
+        "id": 5,
+        "title": "Nightcall",
+        "artist": "Kavinsky",
+        "albumArt": "/Songs/nightcall.jfif",
+        "file": "/Songs/Kavinsky - Nightcall.mp3",
+        "playlist": "Rap Mix"
+      }
+      
+      
+  
+    ]
+  }
+  
