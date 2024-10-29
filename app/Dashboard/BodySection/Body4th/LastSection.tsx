@@ -1,6 +1,5 @@
-// LastSection.tsx
 import React, { useState, useEffect, useRef } from 'react';
-import { FaPlay, FaPause, FaRedo, FaForward } from 'react-icons/fa';
+import { FaPlay, FaPause, FaRedo, FaForward, FaStepForward } from 'react-icons/fa';
 
 type Song = {
   id: number;
@@ -34,18 +33,28 @@ const LastSection: React.FC<LastSectionProps> = ({ selectedPlaylist, onPlaylistS
           setCurrentSongIndex(0);
           setProgress(0);
           setDuration(0);
+          setIsPlaying(true); // Auto-play when a new playlist is selected
         });
     }
   }, [selectedPlaylist]);
 
-  // Play selected song
+  // Play selected song and handle auto-play when the song ends
   useEffect(() => {
     const audio = audioRef.current;
     if (audio) {
       audio.src = songs[currentSongIndex]?.file || '';
       if (isPlaying) {
         audio.play();
+      } else {
+        audio.pause();
       }
+
+      // Play the next song when the current song ends
+      audio.addEventListener('ended', playNextSong);
+
+      return () => {
+        audio.removeEventListener('ended', playNextSong);
+      };
     }
   }, [songs, currentSongIndex, isPlaying]);
 
@@ -66,17 +75,37 @@ const LastSection: React.FC<LastSectionProps> = ({ selectedPlaylist, onPlaylistS
   // Handle play/pause
   const togglePlayPause = () => setIsPlaying(prev => !prev);
 
-  // Move to next song
+  // Move to the next song automatically
   const playNextSong = () => {
     setCurrentSongIndex((prevIndex) => (prevIndex + 1) % songs.length);
     setProgress(0);
+  };
+
+  // Forward song by 10 seconds
+  const forwardSong = (seconds: number) => {
+    const audio = audioRef.current;
+    if (audio) {
+      audio.currentTime = Math.min(audio.currentTime + seconds, duration); // Ensures you can't forward past the song's duration
+      setProgress(audio.currentTime);
+    }
   };
 
   return (
     <div className="bg-gray-900 text-white p-4 flex items-center space-x-4 shadow-lg fixed bottom-0 left-0 right-0 w-full">
       <div className="w-16 h-16">
         {songs.length > 0 && (
-          <img src={songs[currentSongIndex]?.albumArt} alt="Album Art" className="w-full h-full object-cover rounded-full" />
+          <img
+            src={songs[currentSongIndex]?.albumArt}
+            alt="Album Art"
+            className={`w-full h-full object-cover rounded-full transition-transform duration-500 ${
+              isPlaying ? 'animate-spin-slow' : ''
+            }`}
+            style={{
+              animation: isPlaying
+                ? 'spin 10s linear infinite' // Inline animation
+                : 'none',
+            }}
+          />
         )}
       </div>
       <div className="flex-1">
@@ -99,6 +128,9 @@ const LastSection: React.FC<LastSectionProps> = ({ selectedPlaylist, onPlaylistS
             </button>
             <button onClick={playNextSong} className="bg-gray-800 p-2 rounded-full hover:bg-gray-700">
               <FaForward />
+            </button>
+            <button onClick={() => forwardSong(10)} className="bg-gray-800 p-2 rounded-full hover:bg-gray-700">
+              <FaStepForward /> {/* Forward 10 seconds */}
             </button>
             <button onClick={() => {/* repeat logic */}} className="bg-gray-800 p-2 rounded-full hover:bg-gray-700">
               <FaRedo />

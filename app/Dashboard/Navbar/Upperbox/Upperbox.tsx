@@ -13,7 +13,7 @@ export default function Upperbox() {
         alt="Loading..." 
         className="w-24 h-24" // Adjust the width and height as needed
       />
-       Work In Progress
+       
     </div>
   );
 }
